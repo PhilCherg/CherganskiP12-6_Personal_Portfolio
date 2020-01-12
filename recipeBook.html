@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Recipe book</title>
+        <link rel="stylesheet" type="text/css" href="common.css">
+        <style>
+            h1, h2 {
+                text-align: center;
+            }
+            #menu {
+                width: 27%;
+                margin: auto;
+                margin-top: 20px;
+                padding: 0;
+            }
+            #menu li{
+                display: inline-block;
+                padding: 3%;
+                background-color: #444;
+            }
+            #menu li a{
+                text-decoration: none;
+                color: #ddd;
+            }
+            img {
+                float: left;
+                width: 40%;
+            }
+            .recipe {
+                width: 90%;
+                margin: 20px auto;
+                padding: 1%;
+                background-color: #999;
+                border: 2px solid black;
+                overflow: hidden;
+            }
+            .recipe div{
+                float: right;
+                width: 60%;
+            }
+            .recipeTitle {
+                margin: 0px 0px 15px 0px;
+            }
+            .recipe div ul, .recipe div table, .recipe div p {
+                margin-left: 25px;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="travel.html">Travel Webpage</a></li>
+                <li><a href="recipeBook.html">Recipe Book</a></li>
+                <li><a href="blog.html">My Blog</a></li>
+                <li><a href="eventInvite.html">Event Invite</a></li>
+            </ul>
+        </header>
+        <div id="mainPage">
+            <h1>Phillip's Recipe Book</h1>
+            <ol id="menu">
+                <li><a href="#recipe1">Recipe #1</a></li>
+                <li><a href="#recipe2">Recipe #2</a></li>
+                <li><a href="#recipe3">Recipe #3</a></li>
+            </ol>
+            <div class="recipe" id="recipe1">
+                <img src="https://www.kasandbox.org/programming-images/food/hamburger.png" />
+                <div>
+                    <h2 class="recipeTitle">Recipe #1 - Burger with French Fries</h2>
+                    <ul>
+                        <li>Time: 15min</li>
+                        <li>Serves: 1</li>
+                    </ul>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ingredients</th>
+                                <th>Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Meat</td>
+                                <td>1 slice</td>
+                            </tr>
+                            <tr>
+                                <td>Bread buns</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>Cheese</td>
+                                <td>2 slices</td>
+                            </tr>
+                            <tr>
+                                <td>Potatoes</td>
+                                <td>2 grams</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>Step 1:</strong> Place the meat, and cheese between the two bread buns.</p>
+                    <p><strong>Step 2:</strong> Fry the potatoes for 5 min.</p>
+                    <p><strong>Step 3:</strong> Put any sauce you want and serve.</p>
+                </div>
+            </div>
+            <div class="recipe" id="recipe2">
+                <img src="https://www.kasandbox.org/programming-images/food/chocolates.png" />
+                <div>
+                    <h2 class="recipeTitle">Recipe #2 - Chocolate Sweets</h2>
+                    <ul>
+                        <li>Time: 1hour</li>
+                        <li>Serves: 2</li>
+                    </ul>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ingredients</th>
+                                <th>Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Chocolate</td>
+                                <td>400g</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>Step 1:</strong> Melt the chocolate</p>
+                    <p><strong>Step 2:</strong> Pour it in different shapes.</p>
+                    <p><strong>Step 3:</strong> Place in the fridge for 1 hour.</p>
+                </div>
+            </div>
+            <div class="recipe" id="recipe3">
+                <img src="https://www.kasandbox.org/programming-images/food/cake.png" />
+                <div>
+                    <h2 class="recipeTitle">Recipe #3 - Fruit Cake</h2>
+                    <ul>
+                        <li>Time: 2</li>
+                        <li>Serves: 5</li>
+                    </ul>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ingredients</th>
+                                <th>Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Fruits</td>
+                                <td>200g</td>
+                            </tr>
+                            <tr>
+                                <td>Cream</td>
+                                <td>200g</td>
+                            </tr>
+                            <tr>
+                                <td>Jam</td>
+                                <td>300g</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>Step 1:</strong> Put the cream on a layer of biscuits</p>
+                    <p><strong>Step 2:</strong> Pour the jam on top</p>
+                    <p><strong>Step 3:</strong> Place slices fruits on top</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>© 2020 Phillip Cherganski 12/6</p>
+        </footer>  
+    </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <link rel="stylesheet" type="text/css" href="common.css">
+        <style>
+            h1, h2 {
+                text-align: center;
+            }
+            #menu {
+                width: 20.5%;
+                margin: auto;
+                margin-top: 20px;
+                padding: 0;
+            }
+            #menu li{
+                display: inline-block;
+                padding: 3%;
+                background-color: #444;
+            }
+            #menu li a{
+                text-decoration: none;
+                color: #ddd;
+            }
+            img {
+                float: left;
+                width: 40%;
+            }
+            .post {
+                width: 90%;
+                margin: 20px auto;
+                padding: 1%;
+                background-color: #999;
+                border: 2px solid black;
+                overflow: hidden;
+            }
+            .post div{
+                float: right;
+                width: 60%;
+            }
+            .postTitle {
+                margin: 0px 0px 15px 0px;
+            }
+            .post div h6, .post div p {
+                margin-left: 25px;
+                margin-top: 10px;
+            }
+            .post p {
+                line-height: 200%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="travel.html">Travel Webpage</a></li>
+                <li><a href="recipeBook.html">Recipe Book</a></li>
+                <li><a href="blog.html">My Blog</a></li>
+                <li><a href="eventInvite.html">Event Invite</a></li>
+            </ul>
+        </header>
+        <div id="mainPage">
+            <h1>Phillip's blog</h1>
+            <ol id="menu">
+                <li><a href="#post1">Post #1</a></li>
+                <li><a href="#post2">Post #2</a></li>
+                <li><a href="#post3">Post #3</a></li>
+            </ol>
+            <div class="post" id="post1">
+                <img src="https://ca-times.brightspotcdn.com/dims4/default/7c50207/2147483647/strip/true/crop/1280x720+0+0/resize/840x473!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fbf%2F83%2Faf673c8f4d5eafc6e2017750a2b7%2Fjoker.JPG" />
+                <div>
+                    <h2 class="postTitle">Went to See "The Joker"</h2>
+                    <h6>Posted on 11/13/2019</h6>
+                    <p>I went with some friends of mine to the Ring Mall and we saw The Joker. It was a really cool movie. It was a lot of fun
+                        and an overall great experience to be able to see that movie with my friends.
+                    </p>
+                </div>
+            </div>
+            <div class="post" id="post1">
+                <img src="https://www.keeeper.com/wp-content/uploads/2019/05/Headerbild-Kidsparty-1200x800.jpg" />
+                <div>
+                    <h2 class="postTitle">Birthday Party</h2>
+                    <h6>Posted on 11/23/2019</h6>
+                    <p>A friend of mine held a birthday party and I went there. It was lots of fun. We listened to cool music,
+                        ate sandwiches, and finally ate a really delicious cake. It was great for socializing and I had a great time.
+                    </p>
+                </div>
+            </div>
+            <div class="post" id="post1">
+                <img src="https://pix10.agoda.net/geo/city/14932/1_14932_02.jpg?s=1920x822" />
+                <div>
+                    <h2 class="postTitle">Went to Turkey</h2>
+                    <h6>Posted on 11/13/2019</h6>
+                    <p>My family and I flew to Turkey and stayed there for a week during the Christmas break. The hotel we stayed in
+                        was really luxurious. The food there was really delicious. I had a great time.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>© 2020 Phillip Cherganski 12/6</p>
+        </footer>
+    </body>
+</html>
